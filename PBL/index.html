@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <title>Sorting Algorithm Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <img class="burger" src="burger.svg" alt="X">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main ">
+    <div class="left">
+      <div class="home">
+        <img src="home.svg" alt="home">
+        <div>Home</div>
+        <div><img class="close" src="close.svg" alt="close"></div>
+
+      </div>
+      <div style="color: white; font-size: larger; margin-left:10px ; margin-top: -15px;">_______________________</div>
+      <div class="sort home">
+        <img src="sort.svg" alt="home">
+        <div>Sorts</div>
+      </div>
+
+      <div class="sortlist">
+        <h3 style="color: rgb(57, 57, 57); margin: 20px;">LOGARETHMIC</h3>
+        <h2 class="sEl">Quick Sort</h2>
+        <h2 class="sEl">Merge Sort</h2>
+        <h2 class="sEl">Heap Sort</h2>
+      </div>
+
+      <div class="sortlist">
+        <h3 style="color: rgb(57, 57, 57); margin: 20px;">QUADRATIC</h3>
+        <h2 class="sEl">Bubble Sort</h2>
+        <h2 class="sEl">Selection Sort</h2>
+        <h2 class="sEl">Incertion Sort</h2>
+        <h2 class="sEl">Gnome Sort</h2>
+        <h2 class="sEl">Shaker Sort</h2>
+        <h2 class="sEl">Odd Even Sort</h2>
+        <h2 class="sEl">Pancake Sort</h2>
+      </div>
+
+      <div class="sortlist">
+        <h3 style="color: rgb(57, 57, 57); margin: 20px;">WIERD</h3>
+        <h2 class="sEl">Bitcoine Sort</h2>
+        <h2 class="sEl">Radix Sort</h2>
+        <h2 class="sEl">Shell Sort</h2>
+        <h2 class="sEl">Comb Sort</h2>
+        <h2 class="sEl">Bogo Sort</h2>
+        <h2 class="sEl">Stooge Sort</h2>
+      </div>
+    </div>
+    <div class="right">
+      <div class="container">
+        <h1>Bubble Sort</h1>
+        <div class="cont">
+          <label style="color: aliceblue;" for="arraySizeInput">Enter Number of Bars :</label>
+          <input type="number" class="input" min="1" max="100" value="50" id="arraySizeInput">
+
+
+          <div>
+            <label style="color: aliceblue;" for="range">Speed :</label>
+            <input type="range" class="range" min="1" max="100" value="50" id="speedRange">
+          </div>
+
+          <div class="array-container" id="arrayContainer">
+          </div>
+
+
+          <button class="button btn" id="startSorting" onclick="startSorting()">Start Sorting</button>
+          <button class="button btn" id="stopSorting" onclick="stopSorting()">Stop Sorting</button>
+          <button class="button btn" onclick="resetArray()">Generate New Array</button>
+        </div>
+
+      </div>
+
+      <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae illo nemo minus commodi
+        cumque a doloremque libero, omnis odio aperiam, porro accusantium et inventore sunt maxime autem amet rem
+        placeat
+        qui! Est aut officiis commodi, quae nemo tempora praesentium, facilis iste ducimus fuga fugit illo hic id
+        explicabo
+        aliquid reiciendis rerum non ipsa sequi magni, eos quidem quaerat. Sapiente dolorum nobis fugit laboriosam
+        quibusdam! Veritatis libero iusto qui aliquam ea nobis, non laboriosam odio laborum esse obcaecati id inventore
+        nulla quisquam perferendis asperiores tenetur ex repellat rem ipsum possimus ullam adipisci! Voluptate dolorem,
+        aliquam assumenda laboriosam nulla consectetur quidem quisquam tempore, esse animi earum quasi dignissimos
+        cumque,
+        dicta voluptatem perferendis recusandae beatae! Nihil aliquid quis neque obcaecati animi vitae exercitationem
+        magni?
+        Quidem in ex, eligendi similique sequi cumque atque voluptates explicabo ipsa dolor doloribus incidunt natus!
+        Tenetur ea cupiditate animi, est id porro reiciendis eius? Impedit ipsum cumque labore, voluptatum magnam nihil
+        molestias dolorem doloremque ea dolores, nam voluptates necessitatibus voluptatem deleniti quibusdam, dolore
+        assumenda itaque pariatur eaque dolorum reiciendis. Error, ea perferendis doloremque dolore recusandae
+        doloribus!
+        Tempore modi adipisci explicabo quidem cupiditate in quasi, ad ex sapiente. Aliquam vel explicabo voluptatum,
+        natus
+        amet quos asperiores itaque ipsa laborum nam nostrum incidunt officia dolores! Rerum sequi repudiandae sapiente
+        amet
+        esse repellat rem architecto? Ipsum iure hic quam magni repellat officia quidem sapiente quod culpa eum soluta
+        vero
+        asperiores amet, laudantium ducimus quo obcaecati autem dolore rem minus recusandae. Cupiditate obcaecati
+        aliquid
+        earum debitis sapiente unde inventore veritatis est magni impedit maiores aut tenetur vero a corrupti deserunt,
+        doloribus iure. Minus, doloribus unde magni, culpa sapiente, perferendis omnis accusantium dolorem iure eveniet
+        quam! Nulla, odio pariatur doloribus inventore ex dolores mollitia unde tempore minus minima adipisci explicabo
+        magni alias voluptatum iure labore nihil molestiae a praesentium velit? Dolorem nostrum nulla temporibus? Ipsa
+        mollitia corporis amet dolore harum animi nostrum sequi libero, minus, sit suscipit aliquam quibusdam, inventore
+        quaerat ullam natus aperiam eveniet sunt iste soluta adipisci non facere. Velit illum enim, culpa perspiciatis,
+        hic
+        possimus nam est quisquam omnis, rerum illo id amet libero.
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
